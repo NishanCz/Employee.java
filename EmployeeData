@@ -1,0 +1,30 @@
+import java.util.*;
+public class Employee{
+System.out.prtintln("Name" + "\t" + "Year of admission" + "\t" + "Adress");
+int year;
+String name;
+string adress;
+Void display()
+{
+System.out.println(name + year + adress);
+}
+public class Data{
+public static void main(Strings[] args){
+Employee e1= new Employee();
+Employee e2= new Employee();
+Employee e3= new Employee();
+e1.name="Robert";
+e1.name="Sam";
+e1.name="John";
+e1.year=1994;
+e2.year=2000;
+e3.year=1999;
+e1.adress="WallsStreet";
+e2.adress="WallsStreet";
+e3.adress="WallsStreet";
+e1.display();
+e2.display();
+e3.display();
+}
+}
+}
